@@ -16,6 +16,7 @@ function Diagnostico() {
     setPreviewUrl(URL.createObjectURL(file));
     setResultado(null);
   };
+  
 
   const handleEnviar = () => {
     if (!imagem) return;
